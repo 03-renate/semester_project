@@ -1,0 +1,74 @@
+:root{
+  /* colours dark-mode */
+  --dark-bg: #000E14;
+  --dark-text: #F6F2DF;
+
+  /* colours light-mode */
+  --light-bg: #F6F2DF;
+  --light-text: #000E14;
+
+  /*extra*/
+  --blue: #14293E;
+  --orange: #ff9a00;
+  --red: #E00000;
+}
+
+
+@font-face{
+    font-family: 'title';
+    src: url(fonts/mermaid/Mermaid1001.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: 'body';
+    src: url(fonts/roboto/Roboto-Regular.ttf) format(truetype);
+}
+
+
+h1 {
+    display: block;
+    font-family: 'title', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+  }
+
+h2 {
+    display: block;
+    font-family: 'title', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+  }
+
+h3 {
+    display: block;
+    font-family: 'title', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.17rem;
+  }
+
+h4 {
+    display: block;
+    font-family: 'body', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+  }
+
+h5 {
+    display: block;
+    font-family: 'body', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .83rem;
+  }
+
+h6 {
+    display: block;
+    font-family: 'body', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .67rem;
+  }
+
+a{
+  font-family: 'body', Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--dark-text);
+}
+
+a:hover{
+  display: block;
+  background: linear-gradient(180deg, #ff9a00, #E00000);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
